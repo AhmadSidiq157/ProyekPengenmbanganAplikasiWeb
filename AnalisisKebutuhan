@@ -1,0 +1,10 @@
+#ANALISIS KEBUTUHAN SISI USER#
+1. Fungsional :
+   - Navigasi Produk: Pengguna dapat menelusuri, mencari, dan memfilter produk sepatu berdasarkan kategori, merek, harga, ukuran, dan warna
+   - Pembelian: Proses pembelian meliputi keranjang belanja, checkout dengan opsi pengiriman dan metode pembayaran.
+   - Akun Pengguna: Profil pengguna, histori transaksi, dan pengelolaan alamat pengiriman.
+   - Review dan Rating: Pengguna dapat memberikan ulasan dan penilaian terhadap produk yang dibeli.
+2. Antar Muka (User Interface)
+   - UI/UX Responsif: Tampilan yang optimal di berbagai perangkat (mobile, desktop).
+   - Kecepatan Akses: Loading cepat untuk meningkatkan pengalaman belanja
+   - Keamanan: Enkripsi SSL untuk transaksi dan perlindungan data pengguna. 
