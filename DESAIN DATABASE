@@ -1,3 +1,4 @@
+<img src="Screenshot 2024-10-01 092021.png">
 Table users {
   id_user INT [pk, increment]  // Primary Key dan auto increment
   nama_user VARCHAR(50)
