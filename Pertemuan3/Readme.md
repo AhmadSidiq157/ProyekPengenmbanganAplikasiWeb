@@ -52,11 +52,11 @@ email_admin VARCHAR(50) [unique]
 password_admin VARCHAR(50)
 }
 
-```
-
 // Relasi antar tabel
 Ref: transaksi.id_user > users.id_user // Satu user bisa memiliki banyak transaksi
 Ref: detail_transaksi.id_transaksi > transaksi.id_transaksi // Relasi detail transaksi ke transaksi
 Ref: detail_transaksi.id_produk > produk.id_produk // Relasi detail transaksi ke produk
 Ref: ulasan.id_produk > produk.id_produk // Relasi ulasan ke produk
 Ref: ulasan.id_user > users.id_user // Relasi ulasan ke user
+
+```
