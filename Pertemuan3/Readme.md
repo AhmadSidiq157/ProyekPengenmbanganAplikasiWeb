@@ -60,3 +60,8 @@ Ref: ulasan.id_produk > produk.id_produk // Relasi ulasan ke produk
 Ref: ulasan.id_user > users.id_user // Relasi ulasan ke user
 
 ```
+
+<img src="gambar/beranda.png">
+<img src="gambar/registrasi.png">
+<img src="gambar/detail produk.png">
+<img src="gambar/chekout.png">
