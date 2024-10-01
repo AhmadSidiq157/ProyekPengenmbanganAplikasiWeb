@@ -1,4 +1,6 @@
 <img src="gambar/database.png">
+
+```sql
 Table users {
   id_user INT [pk, increment]  // Primary Key dan auto increment
   nama_user VARCHAR(50)
@@ -49,6 +51,8 @@ nama_admin VARCHAR(50)
 email_admin VARCHAR(50) [unique]
 password_admin VARCHAR(50)
 }
+
+```
 
 // Relasi antar tabel
 Ref: transaksi.id_user > users.id_user // Satu user bisa memiliki banyak transaksi
