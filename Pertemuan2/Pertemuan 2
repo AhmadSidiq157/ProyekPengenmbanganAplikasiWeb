@@ -1,0 +1,3 @@
+<? php
+echo "Membuat repositori di github pertemuan 2"
+?>
