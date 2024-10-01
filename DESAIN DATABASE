@@ -55,3 +55,4 @@ Ref: detail_transaksi.id_transaksi > transaksi.id_transaksi  // Relasi detail tr
 Ref: detail_transaksi.id_produk > produk.id_produk  // Relasi detail transaksi ke produk
 Ref: ulasan.id_produk > produk.id_produk  // Relasi ulasan ke produk
 Ref: ulasan.id_user > users.id_user  // Relasi ulasan ke user
+
