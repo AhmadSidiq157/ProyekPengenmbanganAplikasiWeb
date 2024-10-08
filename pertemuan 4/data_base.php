@@ -1,4 +1,4 @@
-(# Koneksi ke Database )
+# Koneksi ke Database 
 
 <?php
 $servername = "localhost";
