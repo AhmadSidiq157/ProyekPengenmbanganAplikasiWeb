@@ -99,3 +99,6 @@ VALUES
 INSERT INTO ADMIN (nama_admin, email_admin, password_admin)
 VALUES 
 ('Admin Satu', 'admin1@example.com', MD5('adminpassword1'));
+
+
+#Koneksi ke Database#
