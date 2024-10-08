@@ -123,3 +123,5 @@ if ($conn->connect_error) {
 }
 ?>
 ```
+
+### 1. Koneksi ke Database
