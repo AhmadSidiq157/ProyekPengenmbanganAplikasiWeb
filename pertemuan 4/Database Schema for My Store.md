@@ -1,6 +1,6 @@
-# Database Schema for My Store
+# Skema Basis Data untuk Toko Saya
 
-## 1. Creating the Database
+## 1. Membuat Basis Data
 
 ```sql
 -- Membuat database baru
@@ -104,4 +104,22 @@ VALUES
 INSERT INTO ADMIN (nama_admin, email_admin, password_admin)
 VALUES
 ('Admin Satu', 'admin1@example.com', MD5('adminpassword1'));
+```
+
+## 1. Koneksi ke Database
+```php
+<?php
+$servername = "localhost";
+$username = "root";  // Sesuaikan dengan username MySQL kamu
+$password = "";      // Sesuaikan dengan password MySQL kamu
+$dbname = "my_store";
+
+// Membuat koneksi
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Memeriksa koneksi
+if ($conn->connect_error) {
+    die("Koneksi gagal: " . $conn->connect_error);
+}
+?>
 ```
