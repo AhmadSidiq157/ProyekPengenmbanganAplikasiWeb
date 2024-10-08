@@ -1,3 +1,5 @@
+(# Koneksi ke Database )
+
 <?php
 $servername = "localhost";
 $username = "root";  // Sesuaikan dengan username MySQL kamu
