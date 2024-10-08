@@ -1,3 +1,7 @@
+# Database Schema for My Store
+## 1. Creating the Database
+
+```sql
 -- Membuat database baru
 CREATE DATABASE my_store;
 USE my_store;
@@ -99,6 +103,6 @@ VALUES
 INSERT INTO ADMIN (nama_admin, email_admin, password_admin)
 VALUES 
 ('Admin Satu', 'admin1@example.com', MD5('adminpassword1'));
-
+```
 
 
