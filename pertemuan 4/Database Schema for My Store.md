@@ -124,19 +124,218 @@ if ($conn->connect_error) {
 ?>
 ```
 
-### 1. Koneksi ke Database
-**Penjelasan Tambahan:**
-*Penjelasan Tambahan:**
+### 2. Menampilkan Data dari Tabel USERS
+```php
+<?php
+include 'db.php';
 
-* **Header:** `##` digunakan untuk membuat heading level 2.
-* **Code Block:** ````php` digunakan untuk menandai blok kode PHP.
-* **List:** `*` digunakan untuk membuat list tidak berurutan.
-* **Bold:** `**` digunakan untuk membuat teks tebal.
-* **Italic:** `*` digunakan untuk membuat teks miring.
+$sql = "SELECT * FROM USERS";
+$result = $conn->query($sql);
 
-**Manfaat Menggunakan Markdown:**
-* **Bacaan yang Mudah:** Format Markdown mudah dibaca baik oleh manusia maupun mesin.
-* **Fleksibilitas:** Markdown dapat digunakan untuk berbagai jenis konten, mulai dari dokumentasi hingga blog post.
-* **Integrasi dengan GitHub:** GitHub mendukung Markdown secara native, sehingga Anda dapat dengan mudah membuat README yang menarik untuk proyek Anda.
+if ($result->num_rows > 0) {
+    echo "<h2>Daftar Pengguna</h2>";
+    echo "<table border='1'>
+            <tr>
+                <th>ID</th>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>Alamat</th>
+                <th>Nomor Telepon</th>
+            </tr>";
+    while($row = $result->fetch_assoc()) {
+        echo "<tr>
+                <td>".$row["id_user"]."</td>
+                <td>".$row["nama_user"]."</td>
+                <td>".$row["email"]."</td>
+                <td>".$row["alamat"]."</td>
+                <td>".$row["nomor_telepon"]."</td>
+              </tr>";
+    }
+    echo "</table>";
+} else {
+    echo "0 results";
+}
 
-Dengan menggunakan Markdown, Anda dapat membuat dokumentasi yang informatif dan profesional untuk proyek Anda.
+$conn->close();
+?>
+```
+
+## 3. Insert Data ke Tabel USERS
+```php
+<?php
+include 'db.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nama = $_POST['nama_user'];
+    $email = $_POST['email'];
+    $password = md5($_POST['password']);  // Enkripsi password
+    $alamat = $_POST['alamat'];
+    $nomor_telepon = $_POST['nomor_telepon'];
+
+    $sql = "INSERT INTO USERS (nama_user, email, password, alamat, nomor_telepon)
+            VALUES ('$nama', '$email', '$password', '$alamat', '$nomor_telepon')";
+
+    if ($conn->query($sql) === TRUE) {
+        echo "Pengguna berhasil ditambahkan.";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
+}
+
+$conn->close();
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tambah Pengguna</title>
+</head>
+<body>
+    <h2>Form Tambah Pengguna</h2>
+    <form action="insert_user.php" method="POST">
+        Nama: <input type="text" name="nama_user" required><br>
+        Email: <input type="email" name="email" required><br>
+        Password: <input type="password" name="password" required><br>
+        Alamat: <input type="text" name="alamat"><br>
+        Nomor Telepon: <input type="text" name="nomor_telepon"><br>
+        <input type="submit" value="Tambah">
+    </form>
+</body>
+</html>
+```
+
+## 4. Menampilkan Data Produk
+```php
+<?php
+include 'db.php';
+
+$sql = "SELECT * FROM PRODUK";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    echo "<h2>Daftar Produk</h2>";
+    echo "<table border='1'>
+            <tr>
+                <th>ID Produk</th>
+                <th>Nama Produk</th>
+                <th>Harga</th>
+                <th>Ukuran</th>
+                <th>Warna</th>
+                <th>Kategori</th>
+                <th>Stok</th>
+                <th>Deskripsi</th>
+            </tr>";
+    while($row = $result->fetch_assoc()) {
+        echo "<tr>
+                <td>".$row["id_produk"]."</td>
+                <td>".$row["nama_produk"]."</td>
+                <td>".$row["harga"]."</td>
+                <td>".$row["ukuran"]."</td>
+                <td>".$row["warna"]."</td>
+                <td>".$row["kategori"]."</td>
+                <td>".$row["stok"]."</td>
+                <td>".$row["deskripsi"]."</td>
+              </tr>";
+    }
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+
+$conn->close();
+?>
+```
+
+## 5. Menampilkan Transaksi dan Detail Transaksi
+```php
+<?php
+include 'db.php';
+
+// Menampilkan transaksi
+$sql = "SELECT * FROM TRANSAKSI";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    echo "<h2>Daftar Transaksi</h2>";
+    echo "<table border='1'>
+            <tr>
+                <th>ID Transaksi</th>
+                <th>ID User</th>
+                <th>Tanggal</th>
+                <th>Total</th>
+            </tr>";
+    while($row = $result->fetch_assoc()) {
+        echo "<tr>
+                <td>".$row["id_transaksi"]."</td>
+                <td>".$row["id_user"]."</td>
+                <td>".$row["tanggal_transaksi"]."</td>
+                <td>".$row["total"]."</td>
+              </tr>";
+    }
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+
+// Menampilkan detail transaksi
+$sql_detail = "SELECT * FROM DETAIL_TRANSAKSI";
+$result_detail = $conn->query($sql_detail);
+
+if ($result_detail->num_rows > 0) {
+    echo "<h2>Detail Transaksi</h2>";
+    echo "<table border='1'>
+            <tr>
+                <th>ID Transaksi</th>
+                <th>ID Produk</th>
+                <th>Jumlah</th>
+                <th>Subtotal</th>
+            </tr>";
+    while($row = $result_detail->fetch_assoc()) {
+        echo "<tr>
+                <td>".$row["id_transaksi"]."</td>
+                <td>".$row["id_produk"]."</td>
+                <td>".$row["jumlah"]."</td>
+                <td>".$row["subtotal"]."</td>
+              </tr>";
+    }
+    echo "</table>";
+} else {
+    echo "0 results";
+}
+
+$conn->close();
+?>
+```
+
+# Kesimpulan :
+
+### 1. **Struktur dan Relasi**
+Database ini didesain untuk mendukung operasi sebuah toko online, dengan fokus pada manajemen pengguna, produk, transaksi, ulasan, dan admin. Struktur tabel telah dirancang untuk mencakup:
+
+- **Tabel USERS**: Menyimpan data pengguna yang terdaftar, seperti nama, email, alamat, dan nomor telepon. Password pengguna disimpan dalam bentuk hash untuk keamanan.
+  
+- **Tabel PRODUK**: Menyimpan informasi produk yang dijual, termasuk nama produk, harga, ukuran, warna, kategori, jumlah stok, dan deskripsi produk.
+
+- **Tabel TRANSAKSI**: Mencatat setiap transaksi yang dilakukan oleh pengguna, meliputi ID pengguna, tanggal transaksi, dan total harga. Tabel ini terhubung dengan tabel **USERS** melalui foreign key `id_user`.
+
+- **Tabel DETAIL_TRANSAKSI**: Menyimpan detail produk yang dibeli dalam setiap transaksi, seperti jumlah produk dan subtotal. Tabel ini terhubung dengan tabel **TRANSAKSI** dan **PRODUK**.
+
+- **Tabel ULASAN**: Menyimpan ulasan yang diberikan oleh pengguna terhadap produk yang mereka beli, termasuk rating, komentar, dan tanggal ulasan. Tabel ini terhubung dengan tabel **PRODUK** dan **USERS**.
+
+- **Tabel ADMIN**: Menyimpan informasi admin yang memiliki akses untuk mengelola sistem, termasuk nama, email, dan password admin.
+
+### 2. **Keamanan Data**
+- Password untuk pengguna dan admin disimpan dalam bentuk hash menggunakan fungsi `MD5()`. Ini adalah praktik dasar dalam menjaga keamanan data sensitif. Namun, dalam implementasi dunia nyata, disarankan menggunakan algoritma hash yang lebih kuat, seperti `bcrypt`, untuk keamanan yang lebih baik.
+
+### 3. **Integritas Data**
+- Setiap transaksi, ulasan, dan detail transaksi dihubungkan dengan tabel utama seperti **USERS**, **PRODUK**, dan **TRANSAKSI** melalui foreign key. Ini memastikan konsistensi dan integritas data, sehingga data yang tersimpan di berbagai tabel tetap terkoordinasi dengan baik.
+
+### 4. **Kemudahan Manajemen Produk dan Transaksi**
+- Dengan adanya tabel **PRODUK** dan **DETAIL_TRANSAKSI**, sistem dapat melacak ketersediaan stok dan detail pembelian secara efisien. Setiap transaksi bisa dicatat dengan rinci, termasuk produk yang dibeli dan jumlahnya.
+
+### 5. **Fleksibilitas dalam Penambahan Fitur**
+- Struktur database ini cukup fleksibel untuk dikembangkan lebih lanjut. Fitur tambahan, seperti manajemen kategori produk yang lebih kompleks atau sistem loyalitas pelanggan, bisa diintegrasikan tanpa banyak perubahan pada desain yang ada.
+
+### Kesimpulan Utama:
+Database toko ini dirancang secara efisien untuk mendukung operasi inti dari sebuah toko online, dengan fokus pada pengelolaan data pengguna, produk, dan transaksi. Desain ini juga telah memikirkan aspek keamanan dasar dan memastikan integritas data yang baik melalui relasi antar tabel.
