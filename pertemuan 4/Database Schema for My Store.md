@@ -126,3 +126,17 @@ if ($conn->connect_error) {
 
 ### 1. Koneksi ke Database
 **Penjelasan Tambahan:**
+*Penjelasan Tambahan:**
+
+* **Header:** `##` digunakan untuk membuat heading level 2.
+* **Code Block:** ````php` digunakan untuk menandai blok kode PHP.
+* **List:** `*` digunakan untuk membuat list tidak berurutan.
+* **Bold:** `**` digunakan untuk membuat teks tebal.
+* **Italic:** `*` digunakan untuk membuat teks miring.
+
+**Manfaat Menggunakan Markdown:**
+* **Bacaan yang Mudah:** Format Markdown mudah dibaca baik oleh manusia maupun mesin.
+* **Fleksibilitas:** Markdown dapat digunakan untuk berbagai jenis konten, mulai dari dokumentasi hingga blog post.
+* **Integrasi dengan GitHub:** GitHub mendukung Markdown secara native, sehingga Anda dapat dengan mudah membuat README yang menarik untuk proyek Anda.
+
+Dengan menggunakan Markdown, Anda dapat membuat dokumentasi yang informatif dan profesional untuk proyek Anda.
