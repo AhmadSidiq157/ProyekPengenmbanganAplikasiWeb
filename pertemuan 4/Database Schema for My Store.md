@@ -1,4 +1,4 @@
-# Skema Basis Data untuk Toko Saya
+# Skema Basis Data untuk Toko Sepatu MlayuSports
 
 ## 1. Membuat Basis Data
 
