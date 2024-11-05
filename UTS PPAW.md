@@ -52,16 +52,16 @@
 - Menambahkan keranjang belanja dari sisi user.
 
 ### Kegiatan ke-9 (19-25 Nov 2024)
-- Mengembangkan fitur Checkout Barang.
+- Mengembangkan Fitur Checkout Barang.
 - Mengembangkan Notifikasi Pembelian Barang.
 
 ### Kegiatan ke-10 (26 Nov - 2 Des 2024)
-- (Tambahkan detail kegiatan di minggu ini)
+- Mengembangkan Fitur Menambahkan Barang ke Beranda Toko. 
 
 ### Kegiatan ke-11 (3 - 9 Des 2024)
-- (Tambahkan detail kegiatan di minggu ini)
+- Mengembangkan Fitur Mengirim Notifikasi Proses Pesanan.
 
 ### Kegiatan ke-12 (10 - 16 Des 2024)
-- (Tambahkan detail kegiatan di minggu ini)
+- Mengembangkan Fitur Mengetahui Barang Terbeli.
 
 ---
