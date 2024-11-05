@@ -90,4 +90,24 @@
 - *Upaya Serius*: Mengembangkan dashboard admin untuk manajemen produk, termasuk validasi dan sanitasi input yang dilakukan pada setiap produk baru untuk menjaga kualitas data.
 - *Contoh Nyata*: Memastikan perubahan produk oleh admin langsung tercermin di tampilan user dan mengatur pagination pada produk agar tetap responsif.
 
+### 7. Pengembangan Sistem Notifikasi Proses Pesanan
+- *Upaya Serius*: Memberikan admin akses untuk mengubah status pesanan dan mengirim notifikasi otomatis kepada user agar mereka selalu mendapatkan informasi terbaru.
+- *Contoh Nyata*: Menambahkan tombol di dashboard admin untuk mengubah status pesanan dan mengirim notifikasi setelah perubahan status tersimpan.
+
+### 8. Analisis Penjualan Produk untuk Admin
+- *Upaya Serius*: Mengembangkan fitur riwayat penjualan agar admin bisa melihat produk yang paling banyak terjual.
+- *Contoh Nyata*: Menambahkan filter tanggal dan kategori produk di riwayat pesanan sehingga admin dapat mengetahui statistik penjualan pada rentang waktu tertentu.
+
+### 9. Pengujian Menyeluruh
+- *Upaya Serius*: Melakukan pengujian unit dan pengujian fungsional untuk memastikan setiap fitur berfungsi dengan benar dan sesuai spesifikasi. Juga, melakukan uji pengguna (UAT) untuk memastikan kenyamanan penggunaan.
+- *Contoh Nyata*: Menggunakan PHPUnit untuk pengujian unit serta tes pengguna langsung untuk mendapatkan umpan balik user.
+
+### 10. Keamanan Aplikasi
+- *Upaya Serius*: Melindungi aplikasi dari ancaman umum seperti SQL Injection, XSS, dan CSRF dengan mengamankan data sensitif.
+- *Contoh Nyata*: Menggunakan hashing bcrypt untuk password, mengaktifkan CSRF token pada setiap form, dan melakukan validasi input yang ketat.
+
+### 11. Deployment dan Pemeliharaan Aplikasi
+- *Upaya Serius*: Merencanakan deployment yang aman serta memonitor aplikasi pasca-peluncuran dan memperbaiki bug sesuai umpan balik pengguna.
+- *Contoh Nyata*: Menggunakan layanan deployment otomatis (seperti GitHub Actions) untuk update versi aplikasi dan memantau performa melalui Google Analytics atau alat monitoring lainnya.
+
 ---
