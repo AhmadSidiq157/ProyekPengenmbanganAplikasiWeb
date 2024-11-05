@@ -3,7 +3,7 @@
 
 # WEB Aplikasi Penjualan Sepatu "MlayuSports" menggunakan Laravel
 
-## Fitur
+## 1 Fitur
 
 ### Fitur User
 
@@ -41,11 +41,11 @@
 4. *Mengetahui Barang Terbeli*
    - Admin dapat melihat riwayat pesanan yang sudah completed untuk mengetahui produk mana yang sudah terjual.
 
-## Rencana Tabel
+## 2 Rencana Tabel
 
 - Total jumlah tabel yang direncanakan: *8*
 
-## Rencana Kegiatan
+## 3 Rencana Kegiatan
 
 ### Kegiatan ke-8 (12-18 Nov 2024)
 - Menambahkan homepage atau halaman beranda dari sisi user.
@@ -63,5 +63,31 @@
 
 ### Kegiatan ke-12 (10 - 16 Des 2024)
 - Mengembangkan Fitur Mengetahui Barang Terbeli.
+
+## 4 Uraikan upaya serius dari  kelompok ini agar  proyek ini dapat diselesaikan 
+
+### 1. Analisis dan Perencanaan Fitur
+- *Upaya Serius*: Memastikan setiap fitur dirancang sesuai kebutuhan user dan admin, dengan analisis mendalam mengenai kebutuhan pengguna dan bagaimana mereka akan menggunakan fitur seperti keranjang belanja dan checkout.
+- *Contoh Nyata*: Mengumpulkan feedback dari calon pengguna untuk fitur penting, seperti kemudahan checkout, dan mengintegrasikan kebutuhan tersebut dalam desain awal.
+
+### 2. Implementasi Autentikasi User dan Admin
+- *Upaya Serius*: Menggunakan Laravel Authentication yang dimodifikasi agar mendukung role-based access control, sehingga user dan admin dapat mengakses halaman sesuai peran mereka.
+- *Contoh Nyata*: Menambahkan middleware untuk membedakan role user dan admin, serta menguji endpoint untuk mencegah akses tak sah.
+
+### 3. Desain Database dan Pengelolaan Data
+- *Upaya Serius*: Membuat desain database yang efisien dengan 8 tabel utama (users, products, carts, orders, order_items, dll) serta relasi antar tabel yang tepat, seperti many-to-many untuk produk dan pesanan.
+- *Contoh Nyata*: Menggunakan migrasi Laravel untuk mendesain database yang konsisten dan mudah diperbarui di berbagai lingkungan pengembangan.
+
+### 4. Pengembangan Fitur Keranjang Belanja dan Checkout
+- *Upaya Serius*: Memastikan fitur keranjang belanja dan checkout bekerja dengan lancar, di mana data produk yang ditambahkan dalam tabel carts sesuai dan dipindahkan ke order_items saat checkout.
+- *Contoh Nyata*: Menguji penambahan, pengurangan, dan penghapusan produk di keranjang, serta memastikan proses checkout memindahkan data dengan benar.
+
+### 5. Pengiriman Notifikasi kepada User
+- *Upaya Serius*: Mengintegrasikan notifikasi agar user tahu status pembelian mereka melalui email atau tampilan di halaman setelah checkout.
+- *Contoh Nyata*: Membuat template email yang menarik dan mengirimkannya otomatis saat user checkout atau pesanan mereka diproses.
+
+### 6. Pengelolaan Produk oleh Admin
+- *Upaya Serius*: Mengembangkan dashboard admin untuk manajemen produk, termasuk validasi dan sanitasi input yang dilakukan pada setiap produk baru untuk menjaga kualitas data.
+- *Contoh Nyata*: Memastikan perubahan produk oleh admin langsung tercermin di tampilan user dan mengatur pagination pada produk agar tetap responsif.
 
 ---
