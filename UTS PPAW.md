@@ -1,7 +1,7 @@
 
 ---
 
-# WEB Aplikasi Penjualan Sepatu "MlayuSports" menggunakan Laravel
+# WEB Aplikasi Penjualan Baju Distro "Troy Company Shop" 
 
 ## 1 Fitur
 
