@@ -1,24 +1,22 @@
-<center>
+
 # Laporan Proyek Pengembangan Aplikasi Web Toko Online Kaos Distro Troy Company Shop
-</center>center>
+
 <img src="logoutdi.png">
-<center>
+
 Penyusun :
 Fahmi Al-Anshori / 225410090
 Sidiq Imawan / 225410097
 Muhammad Dafa Argara / 225410105
 
-
-
-
-
-
-
+#
+#
+#
+#
 Program Studi Informatika Klas 1 
 Fakultas Teknologi Informasi
 Universitas Teknologi Digital Indonesia (UTDI)
 2024
-</center>
+
 
 #### 1. Pendahuluan
 
