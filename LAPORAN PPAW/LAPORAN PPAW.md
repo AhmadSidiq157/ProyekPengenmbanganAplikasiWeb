@@ -156,11 +156,12 @@ $jml3 = mysqli_num_rows($result3);
 <?php 
 include 'footer.php';
 ?>
-
-<img src="halaman_produk.png">
+```
+<img src="Dashboard_admin.png">
 
 
 Tampilan admin daftar_produk.php
+
 
 
 
