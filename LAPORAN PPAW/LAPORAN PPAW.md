@@ -1,29 +1,6 @@
 # Laporan Proyek Pengembangan Aplikasi Web Toko Online Kaos Distro Troy Company Shop
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Penyusun :
 
 Fahmi Al-Anshori / 225410090
@@ -60,13 +37,13 @@ Troy Company Official Shop hadir untuk memenuhi kebutuhan tersebut dengan menyed
 
 Tujuan utama dari pengembangan website Troy Company Official Shop adalah untuk:
 
-Menyediakan platform toko online yang mudah diakses oleh konsumen di Yogyakarta, khususnya bagi mereka yang tertarik dengan produk distro berkualitas.
+a. Menyediakan platform toko online yang mudah diakses oleh konsumen di Yogyakarta, khususnya bagi mereka yang tertarik dengan produk distro berkualitas.
 
-Meningkatkan jangkauan pemasaran produk distro, memungkinkan toko untuk menjangkau konsumen dari luar kota Yogyakarta.
+b. Meningkatkan jangkauan pemasaran produk distro, memungkinkan toko untuk menjangkau konsumen dari luar kota Yogyakarta.
 
-Menyediakan pengalaman belanja yang menyenangkan dengan fitur-fitur seperti katalog produk, sistem keranjang belanja, dan sistem pembayaran yang aman.
+c. Menyediakan pengalaman belanja yang menyenangkan dengan fitur-fitur seperti katalog produk, sistem keranjang belanja, dan sistem pembayaran yang aman.
 
-Mengoptimalkan transaksi online dan mempercepat proses pemesanan produk dengan adanya sistem checkout dan pengelolaan pesanan yang efisien.
+d. Mengoptimalkan transaksi online dan mempercepat proses pemesanan produk dengan adanya sistem checkout dan pengelolaan pesanan yang efisien.
 
 
 
@@ -101,42 +78,17 @@ d. Fitur manajemen multi-admin atau multi-role.
 
 Rancangan Semula/Awal
 
-Rancangan Database : 
+##### Rancangan Database : 
+<img src="database.png">
 
 
+##### Data flow diagram (DFD) level 0 : 
+<img src="(DFD)_level-0.png">
+<img src="(DFD)_level-01.png">
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Data flow diagram (DFD) level 0 : 
-
-
-
-
-
-
-
-Realisasi
-
+##### Realisasi
+<img src="Relasi.png">
  
 
 #### 3. Teknologi 
