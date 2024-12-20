@@ -23,7 +23,7 @@ Universitas Teknologi Digital Indonesia (UTDI)
 
 2024
 
-### 1. Pendahuluan
+## 1. Pendahuluan
 
 #### A. Latar Belakang: 
 
@@ -74,7 +74,7 @@ c. Pengelolaan sistem promo atau diskon yang rumit.
 
 d. Fitur manajemen multi-admin atau multi-role.
 
-#### 2. Perancangan Sistem
+## 2. Perancangan Sistem
 
 Rancangan Semula/Awal
 
