@@ -72,17 +72,17 @@ d. Fitur manajemen multi-admin atau multi-role.
 
 ### Rancangan Semula/Awal
 
-#### Rancangan Database : 
+#### A. Rancangan Database : 
 <img src="database.png">
 
 
-#### Data flow diagram (DFD) level 0 : 
+#### B. Data flow diagram (DFD) level 0 : 
 
 <img src="(DFD)_level_01.png">
 <img src="(DFD)_level-0.png">
 
 
-#### Realisasi
+#### 2. Realisasi
 <img src="Relasi.png">
  
 
