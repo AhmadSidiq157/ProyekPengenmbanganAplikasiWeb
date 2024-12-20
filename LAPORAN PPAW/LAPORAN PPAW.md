@@ -1,26 +1,54 @@
-
 # Laporan Proyek Pengembangan Aplikasi Web Toko Online Kaos Distro Troy Company Shop
 
-<img src="logoutdi.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Penyusun :
+
 Fahmi Al-Anshori / 225410090
+
 Sidiq Imawan / 225410097
+
 Muhammad Dafa Argara / 225410105
 
-#
-#
-#
-#
+
+
+
+
+
+
 Program Studi Informatika Klas 1 
+
 Fakultas Teknologi Informasi
+
 Universitas Teknologi Digital Indonesia (UTDI)
+
 2024
 
+### 1. Pendahuluan
 
-#### 1. Pendahuluan
-
-Latar Belakang: 
+#### A. Latar Belakang: 
 
 Seiring dengan pesatnya perkembangan teknologi dan gaya hidup digital, masyarakat kini semakin cenderung berbelanja secara online, termasuk dalam hal pembelian pakaian dan produk distro. Hal ini menjadi tantangan bagi toko-toko pakaian konvensional yang perlu beradaptasi dengan kebutuhan pasar. Banyak pengusaha distro yang belum memanfaatkan platform online dengan optimal, padahal melalui platform tersebut, mereka dapat menjangkau lebih banyak konsumen dari berbagai daerah.
 
@@ -28,7 +56,7 @@ Troy Company Official Shop hadir untuk memenuhi kebutuhan tersebut dengan menyed
 
 
 
-Tujuan: 
+#### B. Tujuan: 
 
 Tujuan utama dari pengembangan website Troy Company Official Shop adalah untuk:
 
@@ -42,73 +70,32 @@ Mengoptimalkan transaksi online dan mempercepat proses pemesanan produk dengan a
 
 
 
-Batasan Masalah: Proyek ini dibatasi pada pengembangan website untuk penjualan produk pakaian distro dengan fitur-fitur dasar yang mendukung transaksi online. Beberapa batasan masalah yang ditetapkan dalam proyek ini adalah sebagai berikut:
+#### C. Batasan Masalah : 
+Proyek ini dibatasi pada pengembangan website untuk penjualan produk pakaian distro dengan fitur-fitur dasar yang mendukung transaksi online. Beberapa batasan masalah yang ditetapkan dalam proyek ini adalah sebagai berikut:
 
-Fitur yang Akan Dikembangkan:
+##### 1. Fitur yang Akan Dikembangkan:
 
-Halaman utama yang menampilkan produk-produk yang tersedia.
+a. Halaman utama yang menampilkan produk-produk yang tersedia.
 
-Sistem manajemen produk yang memungkinkan admin untuk menambahkan, mengedit, dan menghapus produk.
+b. Sistem manajemen produk yang memungkinkan admin untuk menambahkan, mengedit, dan menghapus produk.
 
-Sistem keranjang belanja dan checkout untuk memudahkan konsumen dalam berbelanja.
+c. Sistem keranjang belanja dan checkout untuk memudahkan konsumen dalam berbelanja.
 
-Sistem autentikasi pengguna untuk mengelola akun pelanggan.
+d. Sistem autentikasi pengguna untuk mengelola akun pelanggan.
 
-Halaman pembayaran yang mendukung beberapa metode pembayaran seperti transfer bank dan e-wallet.
+e. Halaman pembayaran yang mendukung beberapa metode pembayaran seperti transfer bank dan e-wallet.
 
-Tampilan responsif yang dapat diakses dengan baik di perangkat desktop maupun mobile.
+f. Tampilan responsif yang dapat diakses dengan baik di perangkat desktop maupun mobile.
 
-Fitur yang Tidak Akan Dikembangkan:
+##### 2. Fitur yang Tidak Akan Dikembangkan:
 
-Fitur pengelolaan stok produk secara real-time.
+a. Fitur pengelolaan stok produk secara real-time.
 
-Fitur pengiriman otomatis atau integrasi dengan kurir.
+b. Fitur pengiriman otomatis atau integrasi dengan kurir.
 
-Pengelolaan sistem promo atau diskon yang rumit.
+c. Pengelolaan sistem promo atau diskon yang rumit.
 
-Fitur manajemen multi-admin atau multi-role.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+d. Fitur manajemen multi-admin atau multi-role.
 
 #### 2. Perancangan Sistem
 
