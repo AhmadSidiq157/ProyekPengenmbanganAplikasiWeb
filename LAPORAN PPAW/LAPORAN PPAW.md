@@ -449,15 +449,15 @@ include 'header.php';
 
 ### 5. Langkah- langkah menjalankan aplikasi
 
-user membuka  dan admin membuka .
+1. user membuka  dan admin membuka website TROY COMPANY SHOP.
 
-Jika user belum memiliki akun maka harus registrasi daftar akun terlebih dahulu.
+2. Jika user belum memiliki akun maka harus registrasi daftar akun terlebih dahulu.
 
-Admin akan masuk dengan cara login karena sudah dipatenkan hanya satu admin saja yang dapat masuk.
+3. Admin akan masuk dengan cara login karena sudah dipatenkan hanya satu admin saja yang dapat masuk.
 
-Setelah user daftar dan login maka user dapat langsung berbelanja, cara berbelanja dapat dilihat di ‘Cara Order’ pada bagian header website.
+4. Setelah user daftar dan login maka user dapat langsung berbelanja, cara berbelanja dapat dilihat di ‘Cara Order’ pada bagian header website.
 
-Setelah admin login, admin dapat  melihat orderan pada bagian dashboard dan admin dapat menambahkan produk yang akan di jual pada bagian ‘Data Produk dan Customer’ kemudian. pilih ‘Daftar Produk’ pada halaman tersebut admin dapat menginput atau menghapus barang yang dijual pada toko kaos distro.
+5. Setelah admin login, admin dapat  melihat orderan pada bagian dashboard dan admin dapat menambahkan produk yang akan di jual pada bagian ‘Data Produk dan Customer’ kemudian. pilih ‘Daftar Produk’ pada halaman tersebut admin dapat menginput atau menghapus barang yang dijual pada toko kaos distro.
 
 ### 6. Kesimpulan dan Saran
 
