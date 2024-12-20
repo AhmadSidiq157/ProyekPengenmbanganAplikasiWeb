@@ -157,6 +157,8 @@ $jml3 = mysqli_num_rows($result3);
 include 'footer.php';
 ?>
 
+<img src="halaman_produk.png">
+
 
 Tampilan admin daftar_produk.php
 
