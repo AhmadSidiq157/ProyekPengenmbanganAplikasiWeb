@@ -1,29 +1,5 @@
 # Laporan Proyek Pengembangan Aplikasi Web Toko Online Kaos Distro Troy Company Shop
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="logoutdi.png">
 Penyusun :
 
 Fahmi Al-Anshori / 225410090
