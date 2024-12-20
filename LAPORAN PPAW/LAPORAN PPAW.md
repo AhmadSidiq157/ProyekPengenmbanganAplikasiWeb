@@ -80,7 +80,7 @@ Rancangan Semula/Awal
 
 ##### Data flow diagram (DFD) level 0 : 
 <img src="(DFD)_level-0.png">
-<img src="(DFD)_level-01.png">
+<img src="(DFD)_level_01.png">
 
 
 ##### Realisasi
