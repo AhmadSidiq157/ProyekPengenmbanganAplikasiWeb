@@ -1,6 +1,6 @@
-##Laporan Proyek Pengembangan Aplikasi Web 
+## Laporan Proyek Pengembangan Aplikasi Web 
 
-##Toko Online Kaos Distro Troy Company Shop
+## Toko Online Kaos Distro Troy Company Shop
 
 
 
