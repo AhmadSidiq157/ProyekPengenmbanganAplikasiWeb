@@ -15,9 +15,7 @@ Muhammad Dafa Argara / 225410105
 
 
 
-## Program Studi Informatika Kelas 1 Fakultas Teknologi Informasi
-
-## Universitas Teknologi Digital Indonesia (UTDI) 2024
+## Program Studi Informatika Kelas 1 Fakultas Teknologi Informasi Universitas Teknologi Digital Indonesia (UTDI) 2024
 
 ## 1. Pendahuluan
 
@@ -72,7 +70,7 @@ d. Fitur manajemen multi-admin atau multi-role.
 
 ## 2. Perancangan Sistem
 
-Rancangan Semula/Awal
+### Rancangan Semula/Awal
 
 #### Rancangan Database : 
 <img src="database.png">
