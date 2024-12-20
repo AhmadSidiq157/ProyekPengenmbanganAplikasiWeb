@@ -19,7 +19,7 @@ Muhammad Dafa Argara / 225410105
 
 ## 1. Pendahuluan
 
-### A. Latar Belakang: 
+#### A. Latar Belakang: 
 
 Seiring dengan pesatnya perkembangan teknologi dan gaya hidup digital, masyarakat kini semakin cenderung berbelanja secara online, termasuk dalam hal pembelian pakaian dan produk distro. Hal ini menjadi tantangan bagi toko-toko pakaian konvensional yang perlu beradaptasi dengan kebutuhan pasar. Banyak pengusaha distro yang belum memanfaatkan platform online dengan optimal, padahal melalui platform tersebut, mereka dapat menjangkau lebih banyak konsumen dari berbagai daerah.
 
@@ -27,7 +27,7 @@ Troy Company Official Shop hadir untuk memenuhi kebutuhan tersebut dengan menyed
 
 
 
-### B. Tujuan: 
+#### B. Tujuan: 
 
 Tujuan utama dari pengembangan website Troy Company Official Shop adalah untuk:
 
@@ -41,10 +41,10 @@ d. Mengoptimalkan transaksi online dan mempercepat proses pemesanan produk denga
 
 
 
-### C. Batasan Masalah : 
+#### C. Batasan Masalah : 
 Proyek ini dibatasi pada pengembangan website untuk penjualan produk pakaian distro dengan fitur-fitur dasar yang mendukung transaksi online. Beberapa batasan masalah yang ditetapkan dalam proyek ini adalah sebagai berikut:
 
-#### 1. Fitur yang Akan Dikembangkan:
+##### 1. Fitur yang Akan Dikembangkan:
 
 a. Halaman utama yang menampilkan produk-produk yang tersedia.
 
@@ -58,7 +58,7 @@ e. Halaman pembayaran yang mendukung beberapa metode pembayaran seperti transfer
 
 f. Tampilan responsif yang dapat diakses dengan baik di perangkat desktop maupun mobile.
 
-#### 2. Fitur yang Tidak Akan Dikembangkan:
+##### 2. Fitur yang Tidak Akan Dikembangkan:
 
 a. Fitur pengelolaan stok produk secara real-time.
 
